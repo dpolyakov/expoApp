@@ -25,6 +25,15 @@ export default {
         },
       },
       NotFound: '*',
+      Onboarding: {
+        screens: {
+          StepOne: {
+            screens: {
+              step: 'one'
+            }
+          }
+        }
+      }
     },
   },
 };
